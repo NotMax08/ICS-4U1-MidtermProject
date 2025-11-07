@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=PathGenerator
+comment0.text=\n\ Path\ Generator\ Helper\ Class\ that\ helps\ generate\ the\ path\ with\ UI\ and\ points\n\ \n\ @author\ Max\ \n\ @version\ 1.0\n
+comment1.params=pathPoints\ worldWidth\ worldHeight
+comment1.target=PathGenerator(java.util.ArrayList,\ int,\ int)
+comment10.params=
+comment10.target=java.util.ArrayList\ getPathPoints()
+comment11.params=
+comment11.target=int\ getPathPointSize()
+comment2.params=
+comment2.target=void\ drawMainPath()
+comment3.params=
+comment3.target=void\ drawBorderPath()
+comment4.params=
+comment4.target=greenfoot.GreenfootImage\ getImage()
+comment5.params=x\ y\ diameter\ image\ color
+comment5.target=void\ drawCircleCentered(int,\ int,\ int,\ greenfoot.GreenfootImage,\ greenfoot.Color)
+comment5.text=\n\ Draws\ a\ circle,\ centered\ for\ the\ parameter\ inputs,\ (x,y)\n\ created\ bc\ greenfoot\ draws\ it\ in\ upper\ left\ coordinate\ which\ is\ not\ good\n
+comment6.params=x1\ y1\ x2\ y2\ halfWidth\ image\ color
+comment6.target=void\ drawRectangleCentered(int,\ int,\ int,\ int,\ int,\ greenfoot.GreenfootImage,\ greenfoot.Color)
+comment7.params=x\ y\ diameter\ image\ color
+comment7.target=void\ drawCircleOutline(int,\ int,\ int,\ greenfoot.GreenfootImage,\ greenfoot.Color)
+comment8.params=x1\ y1\ x2\ y2\ halfWidth\ image\ color
+comment8.target=void\ drawRectangleOutline(int,\ int,\ int,\ int,\ int,\ greenfoot.GreenfootImage,\ greenfoot.Color)
+comment9.params=index
+comment9.target=Coordinate\ getPathPoint(int)
+numComments=12

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Projectiles
+comment0.text=\n\ Write\ a\ description\ of\ class\ Projectiles\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Projectiles()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ getClosestTarget()
+comment4.params=
+comment4.target=void\ effect()
+comment5.params=
+comment5.target=double\ getDistance()
+numComments=6

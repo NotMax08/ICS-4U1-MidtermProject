@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RedBalloon
+comment0.text=\n\ \ The\ most\ basic\ balloon\ type\n\ \n\ @author\ Robin\ Liu\n\ @version\ Nov\ 3\n
+comment1.params=
+comment1.target=RedBalloon()
+comment2.params=
+comment2.target=void\ drawImage()
+comment3.params=
+comment3.target=void\ act()
+numComments=4

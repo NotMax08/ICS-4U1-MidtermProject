@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GreenBalloon
+comment0.text=\n\ Write\ a\ description\ of\ class\ GreenBalloon\ here.\n\ \n\ @author\ Robin\ Liu\n\ @version\ Nov\ 4\n
+comment1.params=
+comment1.target=GreenBalloon()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ drawImage()
+numComments=4

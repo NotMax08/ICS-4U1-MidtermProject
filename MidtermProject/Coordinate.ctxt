@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Coordinate
+comment0.text=\n\ Helper\ Class\ for\ creating\ coordinates,\ similar\ to\ hashmap\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=x\ y
+comment1.target=Coordinate(int,\ int)
+comment2.params=
+comment2.target=int\ getX()
+comment3.params=
+comment3.target=int\ getY()
+numComments=4
