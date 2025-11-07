@@ -27,4 +27,9 @@ public class GreenBalloon extends Balloon
         image.scale(IMAGE_WIDTH, IMAGE_HEIGHT);
         setImage(image);
     }
+    
+    public void split(){
+        this.getX();
+        this.getY();
+    }
 }
