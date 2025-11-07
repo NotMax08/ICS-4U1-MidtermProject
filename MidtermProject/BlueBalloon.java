@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  *  The upgraded version of red balloon
  * 
  * @author Robin Liu
- * @version Nov 3
+ * @version 1.0
  */
 public class BlueBalloon extends Balloon
 {
