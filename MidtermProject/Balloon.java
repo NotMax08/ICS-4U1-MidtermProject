@@ -22,12 +22,14 @@ public abstract class Balloon extends SuperSmoothMover
     protected static GreenfootImage popImage = new GreenfootImage("popImage.png");
     protected boolean popped;
     protected int actCount; //counts how long the balloon has lived
+    protected int currentActCount;
     protected final int IMAGE_WIDTH = 40;
     protected final int IMAGE_HEIGHT = 60;
 
     // special balloon states 
     protected boolean camo; 
     protected boolean lead;
+    //protected boolean split;
     
     //path following algorithms
     protected ArrayList <Coordinate> pathPoints;
@@ -35,23 +37,21 @@ public abstract class Balloon extends SuperSmoothMover
     protected Coordinate nextPathPoint;
     protected int currentPathPointNum;
     
-    
-    
 
     public Balloon(){
         enableStaticRotation();
         popImage.scale(50,50);
         popped = false;
+        //split = false;
         
         pathPoints = PathGenerator.getPathPoints();
         currentPathPointNum = 0;
-        
     }
 
     public void act(){
         actCount++;
         if(popped){
-            if(actCount == actCount + 20){
+            if(currentActCount  + 20 == actCount){
                 removeMe();
             }else{
                 popMe();
@@ -64,6 +64,13 @@ public abstract class Balloon extends SuperSmoothMover
     public void move(){
         move(speed);
         followPath();
+    }
+    
+    public void split(){
+        if(this.equals(GreenBalloon.class)){
+            getWorld().addObject(new RedBalloon(), this.getX(),this.getY());
+            
+        }
     }
     
     
@@ -134,7 +141,9 @@ public abstract class Balloon extends SuperSmoothMover
      */
     public void damageMe(int damage){
         if(HP - damage <= 0){
+            split();
             popped = true;
+            currentActCount = actCount;
             //pop sound;
         }else{
             this.HP = HP - damage;
