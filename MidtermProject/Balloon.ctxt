@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Balloon
-comment0.text=\n\ \ This\ is\ a\ superclass\ for\ the\ enemy\ which\ are\ balloons\n\ \ Balloons\ float\ across\ the\ path\ and\ try\ to\ reach\ the\ end\ of\ the\ path\n\ \ Balloons\ vary\ by\ colour,\ health,\ speed,\ states\n\ \n\ \ Art\ Credits\:\n\ \ Red\ Balloon\ -\ PNG\ Tree\n\ \ Pop\ Image\ -\ @Color\ Optimist\ on\ OpenGameArt.org\n\ \ \n\ @author\ Robin\ Liu\ \n\ @version\ Nov\ 3\n
+comment0.text=\n\ \ This\ is\ a\ superclass\ for\ the\ enemy\ which\ are\ balloons\n\ \ Balloons\ float\ across\ the\ path\ and\ try\ to\ reach\ the\ end\ of\ the\ path\n\ \ Balloons\ vary\ by\ colour,\ health,\ speed,\ states\n\ \n\ \ Art\ Credits\:\n\ \ Red\ Balloon\ -\ PNG\ Tree\n\ \ Pop\ Image\ -\ @Color\ Optimist\ on\ OpenGameArt.org\n\ \ \n\ @author\ Robin\ Liu\ \n\ @version\ 1.0\n
 comment1.params=
 comment1.target=Balloon()
 comment10.params=

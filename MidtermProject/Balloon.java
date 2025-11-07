@@ -11,7 +11,7 @@ import java.util.*;
  *  Pop Image - @Color Optimist on OpenGameArt.org
  *  
  * @author Robin Liu 
- * @version Nov 3
+ * @version 1.0
  */
 public abstract class Balloon extends SuperSmoothMover
 {
@@ -123,7 +123,6 @@ public abstract class Balloon extends SuperSmoothMover
     protected double determineAngle(int xi, int yi, int xf, int yf){
         return Math.toDegrees(Math.atan2((yf - yi), (xf - xi)));
     }
-    
     
     public int getActCount(){
         return actCount;
